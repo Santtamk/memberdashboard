@@ -15,3 +15,44 @@
 .TopSection-icons{
     color: #5B5967;
 }
+.performanceCard{
+    background: #FFFFFF;
+    border-radius: 9px;
+}
+.performanceCard-header{
+    padding: 1rem;
+}
+.performanceCard-sideHeader{
+    background-color:  #F0F5FA;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+    gap: 3px;
+}
+.performanceCard-sideHeader-icon{
+    color: #2D2C37;
+    /* width: 13.63px;
+    height: 15px; */
+    text-align: center;
+}
+.performanceCard-sideHeader-text{
+    font-size: 12px;
+    font-weight: 400;
+    color:#5B5967;
+}
+.performanceCard-mid{
+    background-color:#EEFDF1;
+    border-radius: 9px;
+}
+.performanceCard-mid-icon{
+    background-color: #D0F2D7;
+    color: #0CA866;
+}
+.performanceCard-mid-span{
+    color: #0CA866 !important;
+}
+.performanceCard-mid-div{
+    color: #5B5967;
+}
