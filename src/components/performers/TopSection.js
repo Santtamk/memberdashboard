@@ -1,18 +1,40 @@
 "use client";
 
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './TopSection.css'
 import { GoBell } from "react-icons/go";
 import { TbMessageDots } from "react-icons/tb";
 import { IoIosArrowDown } from "react-icons/io";
 import PerformanceCard from './PerformanceCard';
-import data from '../../../employees.json';
+import data from '../../../public/employees.json';
 import Performers from './Performers';
 
 const TopSection = () => {
+  const [employees, setEmployees] = useState([]);
+  const [topEmployees, setTopEmployees] = useState([]);
+  const [bottomEmployees, setBottomEmployees] = useState([]);
 
-
+  useEffect(() => {
+    fetch('./employees.json')
+      .then(response => response.json())
+      .then(data => {
+        // Sorted employees by score in descending order
+        const sortedEmployees = data.sort((a, b) => b.score - a.score);
+        
+        // top 5 and bottom 5 employees
+        const top = sortedEmployees.slice(0, 5);
+        const bottom = sortedEmployees.slice(-5);
+        
+        setEmployees(sortedEmployees);
+        setTopEmployees(top);
+        setBottomEmployees(bottom);
+      });
+    }, [])
+    // console.log(employees);
+    // console.log(topEmployees);
+    // console.log(bottomEmployees);
+  
 
   return (
     <div className='w-full h-auto'>
@@ -27,8 +49,11 @@ const TopSection = () => {
           </button>
         </div>
       </div>
-      <PerformanceCard />
-      <Performers />
+      <div className='flex gap-2 flex-wrap'>
+        <PerformanceCard />
+        <Performers header="Top Performers" employees={topEmployees}/>
+        <Performers header="Bottom Performers" employees={bottomEmployees}/>
+      </div>
     </div>
   )
 }

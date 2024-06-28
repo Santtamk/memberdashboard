@@ -1,0 +1,222 @@
+[
+    {
+        "name": "Employee1",
+        "status": "Team or Designation",
+        "score": 83,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+        "name": "Employee2",
+        "status": "Team or Designation",
+        "score": 68,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/2.jpg"
+    },
+    {
+        "name": "Employee3",
+        "status": "Team or Designation",
+        "score": 57,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+        "name": "Employee4",
+        "status": "Team or Designation",
+        "score": 16,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/4.jpg"
+    },
+    {
+        "name": "Employee5",
+        "status": "Team or Designation",
+        "score": 46,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+        "name": "Employee6",
+        "status": "Team or Designation",
+        "score": 17,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    {
+        "name": "Employee7",
+        "status": "Team or Designation",
+        "score": 81,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+        "name": "Employee8",
+        "status": "Team or Designation",
+        "score": 92,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/8.jpg"
+    },
+    {
+        "name": "Employee9",
+        "status": "Team or Designation",
+        "score": 19,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/9.jpg"
+    },
+    {
+        "name": "Employee10",
+        "status": "Team or Designation",
+        "score": 84,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/10.jpg"
+    },
+    {
+        "name": "Employee11",
+        "status": "Team or Designation",
+        "score": 40,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/11.jpg"
+    },
+    {
+        "name": "Employee12",
+        "status": "Team or Designation",
+        "score": 71,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/12.jpg"
+    },
+    {
+        "name": "Employee13",
+        "status": "Team or Designation",
+        "score": 24,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/13.jpg"
+    },
+    {
+        "name": "Employee14",
+        "status": "Team or Designation",
+        "score": 56,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/14.jpg"
+    },
+    {
+        "name": "Employee15",
+        "status": "Team or Designation",
+        "score": 37,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/15.jpg"
+    },
+    {
+        "name": "Employee16",
+        "status": "Team or Designation",
+        "score": 66,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/16.jpg"
+    },
+    {
+        "name": "Employee17",
+        "status": "Team or Designation",
+        "score": 25,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/17.jpg"
+    },
+    {
+        "name": "Employee18",
+        "status": "Team or Designation",
+        "score": 45,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/18.jpg"
+    },
+    {
+        "name": "Employee19",
+        "status": "Team or Designation",
+        "score": 69,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/19.jpg"
+    },
+    {
+        "name": "Employee20",
+        "status": "Team or Designation",
+        "score": 63,
+        "taskOverdue": 10,
+        "weeklyScore": "94%",
+        "department": "Technology",
+        "branch": "Kolkata",
+        "notApprovedCount": 34,
+        "profilePicture": "https://randomuser.me/api/portraits/men/20.jpg"
+    }
+]
