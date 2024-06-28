@@ -18,6 +18,7 @@
 .performanceCard{
     background: #FFFFFF;
     border-radius: 9px;
+    margin-bottom: 0.5rem;
 }
 .performanceCard-header{
     padding: 1rem;
@@ -25,7 +26,7 @@
 .performanceCard-sideHeader{
     background-color:  #F0F5FA;
     border-radius: 10px;
-    display: flex;
+    display: flex;  
     justify-content: center;
     align-items: center;
     padding: 0 5px;
@@ -65,4 +66,19 @@
 }
 .performers-map{
     margin: -0.5rem 1rem -1rem 0rem;
+}
+@media only screen and  (max-width:768px){
+    .TopSection-button{
+        display: none;
+    }
+    .TopSection-header{
+        margin-left: -1rem;
+        /* margin-top: 0.5rem; */
+        /* margin-right: 1rem; */
+    }
+}
+@media only screen and  (max-width:400px){
+    .TopSection-icons-bell{
+        display:none;
+    }
 }

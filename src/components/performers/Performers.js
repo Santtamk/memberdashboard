@@ -3,8 +3,8 @@ import './TopSection.css';
 
 const Performers = ({ header, employees }) => {
   return (
-    <div className="w-full md:w-96 h-80 performanceCard mb-2 container ">
-      <div className="flex justify-between performanceCard-header">
+    <div className=" min-w-80 h-83 performanceCard mb-2">
+      <div className="flex justify-between performanceCard-header gap-4">
         <div className="text-base font-semibold">{header}</div>
         <div className="flex performanceCard-sideHeader">
           <div className="cursor-pointer performanceCard-sideHeader-text">

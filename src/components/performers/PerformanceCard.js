@@ -8,8 +8,7 @@ import PieAnimation from './chart/Chart';
 
 const PerformanceCard = () => {
   return (
-    <div className='w-96'>
-      <div className='performanceCard' >
+      <div className='performanceCard w-80 h-83' >
         <div className='flex justify-between performanceCard-header'>
           <div className='text-base font-semibold'>Performance</div>
           <div className='flex performanceCard-sideHeader'>
@@ -28,7 +27,6 @@ const PerformanceCard = () => {
           <PieAnimation />
         </div>
       </div>
-    </div>
   )
 }
 

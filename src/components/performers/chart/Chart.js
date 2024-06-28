@@ -12,8 +12,6 @@ const data = [
   ];
   
   const COLORS = ['#0CA866', '#9397F6', '#E0BF10', '#D72727'];
-  
-const pieParams = { height: 100};
 
   export default function PieAnimation() {
     const pieSize = 50;
