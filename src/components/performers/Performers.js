@@ -25,9 +25,9 @@ const Performers = ({ header, employees }) => {
             />
             </div>
             <div className="flex justify-between items-center flex-1 performers-flexissue">
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center">
                 <div className="font-medium text-sm text-[#4B465C]">{employee.name}</div>
-                <div className="font-normal text-xs text-[#C0C0C0]">{employee.name}</div>
+                <div className="font-normal text-xs text-[#C0C0C0]">{employee.status}</div>
             </div>
             <div className="flex items-center text-[#A9A9A9]">{employee.score}</div>
             </div>

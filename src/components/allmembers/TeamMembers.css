@@ -1,0 +1,30 @@
+.teamMembers-heading-icons {
+  background-color: #ffffff;
+  color: #5b5967;
+  border: 1px solid #d0d3d9;
+  padding: 0px 12px 0px 12px;
+  border-radius: 8px;
+}
+
+th, td{
+    border-bottom: 1px solid #E8E7EE;
+}
+
+.teamTable{
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+.teamTable-start{
+    background: #F5F8FB;
+    border: 1px solid #E8E7EE;
+    border-radius: 16px;
+}
+@media only screen and (max-width:800px){
+    .teamTable-start-1{
+        overflow: auto;
+    }
+    .teamMembers-search{
+        display: none;
+    }
+}
+

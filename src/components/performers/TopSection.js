@@ -9,6 +9,7 @@ import { IoIosArrowDown } from "react-icons/io";
 import PerformanceCard from './PerformanceCard';
 import data from '../../../public/employees.json';
 import Performers from './Performers';
+import TeamMembers from '../allmembers/TeamMembers';
 
 const TopSection = () => {
   const [employees, setEmployees] = useState([]);
@@ -54,6 +55,7 @@ const TopSection = () => {
         <Performers header="Top Performers" employees={topEmployees}/>
         <Performers header="Bottom Performers" employees={bottomEmployees}/>
       </div>
+      <TeamMembers  employees={employees}/>
     </div>
   )
 }

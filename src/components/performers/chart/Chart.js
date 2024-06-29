@@ -61,7 +61,7 @@ const data = [
             {data.map((item, index) => (
               <Box key={index} sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
                 <Box sx={{ width: 16, height: 16, borderRadius: '50%', backgroundColor: item.color, mr: 1 }} />
-                <Typography variant="body2">{`${item.value}/20 ${item.name}`}</Typography>
+                <Typography variant="body2" className='text-gray-600'>{`${item.value}/20 ${item.name}`}</Typography>
               </Box>
             ))}
           </Box>
